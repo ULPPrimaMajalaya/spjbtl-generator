@@ -1,0 +1,91 @@
+/* Latar Belakang Utama */
+.stApp {
+    background-color: #e0f2fe;
+    color: #0f172a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Utama */
+.main-title {
+    color: #0284c7;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+.sub-title {
+    color: #0f172a;
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+/* Card Container */
+.css-card {
+    background-color: #1b263b;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #ffb703;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-bottom: 15px;
+}
+
+/* Kustomisasi Area Upload File */
+div[data-testid="stFileUploader"] > section {
+    background-color: #e0f2fe !important;
+    border: 2px dashed #0284c7 !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+}
+
+div[data-testid="stFileUploader"] * {
+    color: #0f172a !important;
+    font-weight: 600 !important;
+}
+
+div[data-testid="stFileUploader"] button {
+    background-color: #38bdf8 !important;
+    color: #000000 !important;
+    border: 1px solid #0284c7 !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
+}
+
+div[data-testid="stFileUploader"] button:hover {
+    background-color: #ffb703 !important;
+    color: #000000 !important;
+    border-color: #ffb703 !important;
+}
+
+/* Custom Styling Tombol Primary */
+div.stButton > button:first-child {
+    background-color: #0284c7;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+div.stButton > button:first-child:hover {
+    background-color: #ffb703;
+    color: #000000;
+    box-shadow: 0 4px 12px rgba(255, 183, 3, 0.4);
+}
+
+/* Info Box */
+.stAlert {
+    background-color: #f0f9ff;
+    color: #0f172a;
+    border: 1px solid #0284c7;
+}
+
+/* Warna Latar Belakang & Teks Sidebar Kiri */
+[data-testid="stSidebar"] {
+    background-color: #1b263b !important;
+}
+
+/* Warna Teks & Radio Button di Sidebar agar Kontras */
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
